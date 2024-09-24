@@ -6,7 +6,7 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 **Presenter:** Gökçe Uludoğan
 
-**Date:** 24 September 2024, 10:00 UTC+3 (Istanbul)
+**Date:** 26 September 2024, 10:00 UTC+3 (Istanbul)
 
 **Paper:** [Graph-theoretical prediction of biological modules in quaternary structures of large protein complexes](https://academic.oup.com/bioinformatics/article/40/3/btae112/7623586)
 
