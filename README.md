@@ -6,16 +6,17 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 **Presenter:** Burak Suyunu
 
-**Date:** 3 October 2024, 10:00 UTC+3 (Istanbul)
+**Date:** 31 October 2024, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Chainsaw: protein domain segmentation with fully convolutional neural networks](https://academic.oup.com/bioinformatics/article/40/5/btae296/7667299)
+**Paper:** [Clustering for Protein Representation Learning](https://openaccess.thecvf.com/content/CVPR2024/html/Quan_Clustering_for_Protein_Representation_Learning_CVPR_2024_paper.html)
 
-**Citation:** Wells, J., Hawkins-Hooker, A., Bordin, N., Sillitoe, I., Paige, B., & Orengo, C. (2024). Chainsaw: protein domain segmentation with fully convolutional neural networks. Bioinformatics, 40(5), btae296.
+**Citation:** Quan, Ruijie, Wenguan Wang, Fan Ma, Hehe Fan, and Yi Yang. "Clustering for protein representation learning." In Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, pp. 319-329. 2024.
 
 **Abstract:**
 
-Motivation: Protein domains are fundamental units of protein structure and play a pivotal role in understanding folding, function, evolution, and design. The advent of accurate structure prediction techniques has resulted in an influx of new structural data, making the partitioning of these structures into domains essential for inferring evolutionary relationships and functional classification.
+Protein representation learning is a challenging task that aims to capture the structure and function of proteins from their amino acid sequences. Previous methods largely ignored the fact that not all amino acids are equally important for protein folding and activity. In this article we propose a neural clustering framework that can automatically discover the critical components of a protein by considering both its primary and tertiary structure information. Our framework treats a protein as a graph where each node represents an amino acid and each edge represents a spatial or sequential connection between amino acids. We then apply an iterative clustering strategy to group the nodes into clusters based on their 1D and 3D positions and assign scores to each cluster. We select the highest-scoring clusters and use their medoid nodes for the next iteration of clustering until we obtain a hierarchical and informative representation of the protein. We evaluate on four protein-related tasks: protein fold classification enzyme reaction classification gene ontology term prediction and enzyme commission number prediction. Experimental results demonstrate that our method achieves state-of-the-art performance.
 
-Results: This article presents Chainsaw, a supervised learning approach to domain parsing that achieves accuracy that surpasses current state-of-the-art methods. Chainsaw uses a fully convolutional neural network which is trained to predict the probability that each pair of residues is in the same domain. Domain predictions are then derived from these pairwise predictions using an algorithm that searches for the most likely assignment of residues to domains given the set of pairwise co-membership probabilities. Chainsaw matches CATH domain annotations in 78% of protein domains versus 72% for the next closest method. When predicting on AlphaFold models, expert human evaluators were twice as likely to prefer Chainsaw’s predictions versus the next best method.
+**Availability and implementation:**
 
-Availability and implementation: [github.com/JudeWells/Chainsaw](https://github.com/JudeWells/Chainsaw)
+https://github.com/QUANRJ/ClusteringPRL
+
