@@ -9,6 +9,8 @@
 
 **Citation:** Kulmanov, Maxat, and Robert Hoehndorf. "DeepGOZero: improving protein function prediction from sequence and zero-shot learning based on ontology axioms." Bioinformatics 38.Supplement_1 (2022): i238-i245.
 
+**Material:** 
+- [Slides](DeepGO-SE_24_October_2024.pdf)
 **Abstract:**
 
 Protein functions are often described using the Gene Ontology (GO) which is an ontology consisting of over 50 000 classes and a large set of formal axioms. Predicting the functions of proteins is one of the key challenges in computational biology and a variety of machine learning methods have been developed for this purpose. However, these methods usually require a significant amount of training data and cannot make predictions for GO classes that have only few or no experimental annotations.
