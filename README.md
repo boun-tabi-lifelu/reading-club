@@ -8,7 +8,7 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 **Date:** 7 November 2024, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Combining protein sequences and structures with transformers and equivariant graph neural networks to predict protein function] (https://academic.oup.com/bioinformatics/article/39/Supplement_1/i318/7210446?login=false)
+**Paper:** [Combining protein sequences and structures with transformers and equivariant graph neural networks to predict protein function](https://academic.oup.com/bioinformatics/article/39/Supplement_1/i318/7210446?login=false)
 
 **Citation:** Boadu, F., Cao, H., & Cheng, J. (2023). Combining protein sequences and structures with transformers and equivariant graph neural networks to predict protein function. Bioinformatics, 39, i318–i325.
 
