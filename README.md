@@ -4,17 +4,15 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Burak Suyunu
+**Presenter:** Gökçe Uludoğan
 
-**Date:** 21 November 2024, 10:00 UTC+3 (Istanbul)
+**Date:** 28 November 2024, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Fast and accurate protein structure search with Foldseek](https://www.nature.com/articles/s41587-023-01773-0)
+**Paper:** [InterPLM: Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders](https://www.biorxiv.org/content/10.1101/2024.11.14.623630v1)
 
-**Citation:** Van Kempen, Michel, Stephanie S. Kim, Charlotte Tumescheit, Milot Mirdita, Jeongjae Lee, Cameron LM Gilchrist, Johannes Söding, and Martin Steinegger. "Fast and accurate protein structure search with Foldseek." Nature biotechnology 42, no. 2 (2024): 243-246, https://doi.org/10.1038/s41587-023-01773-0.
+**Citation:** Simon, E., & Zou, J. (2024). InterPLM: Discovering Interpretable Features in Protein Language Models via Sparse Autoencoders. bioRxiv, 2024-11.
 
 **Abstract:**
 
-As structure prediction methods are generating millions of publicly available protein structures, searching these databases is becoming a bottleneck. Foldseek aligns the structure of a query protein against a database by describing tertiary amino acid interactions within proteins as sequences over a structural alphabet. Foldseek decreases computation times by four to five orders of magnitude with 86%, 88% and 133% of the sensitivities of Dali, TM-align and CE, respectively.
-
-**Availability and implementation:** https://github.com/steineggerlab/foldseek and https://search.foldseek.com/
+Protein language models (PLMs) have demonstrated remarkable success in protein modeling and design, yet their internal mechanisms for predicting structure and function remain poorly understood. Here we present a systematic approach to extract and analyze interpretable features from PLMs using sparse autoencoders (SAEs). By training SAEs on embeddings from the PLM ESM-2, we identify up to 2,548 human-interpretable latent features per layer that strongly correlate with up to 143 known biological concepts such as binding sites, structural motifs, and functional domains. In contrast, examining individual neurons in ESM-2 reveals up to 46 neurons per layer with clear conceptual alignment across 15 known concepts, suggesting that PLMs represent most concepts in superposition. Beyond capturing known annotations, we show that ESM-2 learns coherent concepts that do not map onto existing annotations and propose a pipeline using language models to automatically interpret novel latent features learned by the SAEs. As practical applications, we demonstrate how these latent features can fill in missing annotations in protein databases and enable targeted steering of protein sequence generation. Our results demonstrate that PLMs encode rich, interpretable representations of protein biology and we propose a systematic framework to extract and analyze these latent features. In the process, we recover both known biology and potentially new protein motifs. As community resources, we introduce InterPLM ([interPLM.ai](https://interPLM.ai)), an interactive visualization platform for exploring and analyzing learned PLM features, and release code for training and analysis at [github.com/ElanaPearl/interPLM](https://github.com/ElanaPearl/interPLM).
 
