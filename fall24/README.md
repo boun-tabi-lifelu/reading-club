@@ -1,5 +1,38 @@
 # Past Meetings
 
+## 19 December 2024
+
+**Presenter:** Özdeniz Dolu
+
+**Date:** 19 December 2024, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [Probing the Embedding Space of Protein Foundation Models through Intrinsic Dimension Analysis](https://openreview.net/forum?id=r9OUQpwhVo)
+
+**Citation:** Soojung Yang, Juno Nam, Tynan Perez, Jinyeop Song, Xiaochen Du, and Rafael Gomez-Bombarelli. "Probing the Embedding Space of Protein Foundation Models through Intrinsic Dimension Analysis." NeurIPS 2024 Workshop on AI for New Drug Modalities, 2024.
+
+**Material:** 
+- [Slides](19-12-24_Ozdeniz_Slides_Intrinsic_Dimension.pdf)
+- [Paper](19-12-24_Ozdeniz_Paper_Intrinsic_Dimension.pdf)
+
+**Abstract:**
+
+Protein foundation models produce embeddings that are valuable for various downstream tasks, yet the structure and information content of these embeddings remain poorly understood, particularly in relation to diverse pre-training tasks and input modalities. We apply intrinsic dimension analysis to quantify the complexity of protein embeddings from several widely used models, including ESM-2, ESM-IF, ProstT5, and ProteinMPNN. We also employ intrinsic dimension correlation to measure the shared information between different embeddings. Our results reveal a universality in protein embeddings, with similar scales across models and strong correlations between protein and residue embeddings. We observe significant redundancy, with Id values much smaller than the original embedding dimensions. We also show that models capture both spatial and sequential long-range correlation, with correlation decay rate differing based on the input modalities and pre-training tasks. Lastly, we analyze mutant embeddings, revealing that mutations cluster effectively by site, and fine-tuning further reduces the Id to capture task-specific representations.
+
+## 12 December 2024
+
+**Presenter:** Mehmet Efe Akça
+
+**Date:** 12 December 2024, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [Bacterial protein function prediction via multimodal deep learning](https://www.biorxiv.org/content/10.1101/2024.10.30.621035v1.full)
+
+**Citation:** Muzio, G., Adamer, M., Fernandez, L., Borgwardt, K., & Avican, K. (2024). Bacterial protein function prediction via multimodal deep learning. bioRxiv, 2024-10.
+
+**Abstract:**
+
+Bacterial proteins are specialized with extensive functional diversity for survival in diverse and stressful environments. A significant portion of these proteins remains functionally uncharacterized, limiting our understanding of bacterial survival mechanisms. Hence, we developed Deep Expression STructure (DeepEST), a multimodal deep learning framework designed to accurately predict protein function in bacteria by assigning Gene Ontology (GO) terms. DeepEST comprises two modules: a multi-layer perceptron that takes gene expression and location as input features, and a protein structure-based predictor. Within DeepEST, we integrated these modules through a learnable weighted linear combination and introduced a novel masked loss function to fine-tune the structure-based predictor for bacterial species. We showed that DeepEST strongly outperforms existing protein function prediction methods relying solely on amino acid sequence or protein structure. Moreover, DeepEST predicts GO terms for unclassified hypothetical proteins across 25 human bacterial pathogens, facilitating the design of experimental setups for characterization studies.
+
+
 ## 5 December 2024
 
 **Presenter:** Özlem Şimşek
@@ -71,6 +104,10 @@ As structure prediction methods are generating millions of publicly available pr
 **Paper:** [Coarse-graining protein structures into their dynamic communities with DCI, a dynamic community identifier](https://academic.oup.com/bioinformatics/article/38/10/2727/6550056)
 
 **Citation:** Ambuj Kumar, Pranav M Khade, Karin S Dorman, Robert L Jernigan, Coarse-graining protein structures into their dynamic communities with DCI, a dynamic community identifier, Bioinformatics, Volume 38, Issue 10, May 2022, Pages 2727–2733, https://doi.org/10.1093/bioinformatics/btac159.
+
+**Material:** 
+- [Slides](14-11-24_Ozdeniz_Slides_Dynamic_Communities.pdf)
+- [Paper](14-11-24_Ozdeniz_Paper_Dynamic_Communities.pdf)
 
 **Abstract:**
 
@@ -159,7 +196,8 @@ http://github.com/bio-ontology-research-group/deepgozero
 **Citation:** Mingzhi Yuan, Ao Shen, Kexue Fu, Jiaming Guan, Yingfan Ma, Qin Qiao, Manning Wang, ProteinMAE: masked autoencoder for protein surface self-supervised learning, Bioinformatics, Volume 39, Issue 12, December 2023, btad724, https://doi.org/10.1093/bioinformatics/btad724
 
 **Material:** 
-- [Slides](<17-10-24, Ozdeniz Dolu, ProteinMAE.pdf>)
+- [Slides](<17-10-24_Ozdeniz_Slides_ProteinMAE.pdf>)
+- [Paper](<17-10-24_Ozdeniz_Paper_ProteinMAE.pdf>)
 
 **Abstract:**
 The biological functions of proteins are determined by the chemical and geometric properties of their surfaces. Recently, with the booming progress of deep learning, a series of learning-based surface descriptors have been proposed and achieved inspirational performance in many tasks such as protein design, protein–protein interaction prediction, etc. However, they are still limited by the problem of label scarcity, since the labels are typically obtained through wet experiments. Inspired by the great success of self-supervised learning in natural language processing and computer vision, we introduce ProteinMAE, a self-supervised framework specifically designed for protein surface representation to mitigate label scarcity. Specifically, we propose an efficient network and utilize a large number of accessible unlabeled protein data to pretrain it by self-supervised learning. Then we use the pretrained weights as initialization and fine-tune the network on downstream tasks. To demonstrate the effectiveness of our method, we conduct experiments on three different downstream tasks including binding site identification in protein surface, ligand-binding protein pocket classification, and protein–protein interaction prediction. The extensive experiments show that our method not only successfully improves the network’s performance on all downstream tasks, but also achieves competitive performance with state-of-the-art methods. Moreover, our proposed network also exhibits significant advantages in terms of computational cost, which only requires less than a tenth of memory cost of previous methods.
