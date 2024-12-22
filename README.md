@@ -4,16 +4,14 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Mehmet Efe Akça
+**Presenter:** Burak Suyunu
 
-**Date:** 12 December 2024, 10:00 UTC+3 (Istanbul)
+**Date:** 26 December 2024, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Bacterial protein function prediction via multimodal deep learning](https://www.biorxiv.org/content/10.1101/2024.10.30.621035v1.full)
+**Paper:** [Exploring structural diversity across the protein universe with The Encyclopedia of Domains](https://www.science.org/doi/10.1126/science.adq4946)
 
-**Citation:** Muzio, G., Adamer, M., Fernandez, L., Borgwardt, K., & Avican, K. (2024). Bacterial protein function prediction via multimodal deep learning. bioRxiv, 2024-10.
+**Citation:** Lau, A. M., Bordin, N., Kandathil, S. M., Sillitoe, I., Waman, V. P., Wells, J., Orengo, C. A., & Jones, D. T. (2024). Exploring structural diversity across the protein universe with The Encyclopedia of Domains. Science. https://doi.org/adq4946
 
 **Abstract:**
 
-Bacterial proteins are specialized with extensive functional diversity for survival in diverse and stressful environments. A significant portion of these proteins remains functionally uncharacterized, limiting our understanding of bacterial survival mechanisms. Hence, we developed Deep Expression STructure (DeepEST), a multimodal deep learning framework designed to accurately predict protein function in bacteria by assigning Gene Ontology (GO) terms. DeepEST comprises two modules: a multi-layer perceptron that takes gene expression and location as input features, and a protein structure-based predictor. Within DeepEST, we integrated these modules through a learnable weighted linear combination and introduced a novel masked loss function to fine-tune the structure-based predictor for bacterial species. We showed that DeepEST strongly outperforms existing protein function prediction methods relying solely on amino acid sequence or protein structure. Moreover, DeepEST predicts GO terms for unclassified hypothetical proteins across 25 human bacterial pathogens, facilitating the design of experimental setups for characterization studies.
-
-
+The AlphaFold Protein Structure Database (AFDB) contains more than 214 million predicted protein structures composed of domains, which are independently folding units found in multiple structural and functional contexts. Identifying domains can enable many functional and evolutionary analyses but has remained challenging because of the sheer scale of the data. Using deep learning methods, we have detected and classified every domain in the AFDB, producing The Encyclopedia of Domains. We detected nearly 365 million domains, over 100 million more than can be found by sequence methods, covering more than 1 million taxa. Reassuringly, 77% of the nonredundant domains are similar to known superfamilies, greatly expanding representation of their domain space. We uncovered more than 10,000 new structural interactions between superfamilies and thousands of new folds across the fold space continuum.
