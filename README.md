@@ -4,15 +4,15 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Gökçe Uludoğan
+**Presenter:** Aslı Gök
 
-**Date:** 2 January 2025, 10:00 UTC+3 (Istanbul)
+**Date:** 16 January 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Annotating protein functions via fusing multiple biological modalities](https://www.nature.com/articles/s42003-024-07411-y)
+**Paper:** [DPFunc: accurately predicting protein function via deep learning with domain-guided structure information](https://www.nature.com/articles/s41467-024-54816-8)
 
-**Citation:** Ma, W., Bi, X., Jiang, H., Wei, Z., & Zhang, S. (2024). Annotating protein functions via fusing multiple biological modalities. Communications Biology, 7(1), 1705.
+**Citation:** Wang, W., Shuai, Y., Zeng, M., Fan, W., & Li, M. (2025). DPFunc: accurately predicting protein function via deep learning with domain-guided structure information. Nature Communications, 16(1), 70.
 
 
 **Abstract:**
 
-Understanding the function of proteins is of great significance for revealing disease pathogenesis and discovering new targets. Benefiting from the explosive growth of the protein universal, deep learning has been applied to accelerate the protein annotation cycle from different biological modalities. However, most existing deep learning-based methods not only fail to effectively fuse different biological modalities, resulting in low-quality protein representations, but also suffer from the convergence of suboptimal solution caused by sparse label representations. Aiming at the above issue, we propose a multiprocedural approach for fusing heterogeneous biological modalities and annotating protein functions, i.e., MIF2GO (Multimodal Information Fusion to infer Gene Ontology terms), which sequentially fuses up to six biological modalities ranging from different biological levels in three steps, thus leading to powerful protein representations. Evaluation results on seven benchmark datasets show that the proposed method not only considerably outperforms state-of-the-art performance, but also demonstrates great robustness and generalizability across species. Besides, we also present biological insights into the associations between those modalities and protein functions. This research provides a robust framework for integrating multimodal biological data, offering a scalable solution for protein function annotation, ultimately facilitating advancements in precision medicine and the discovery of novel therapeutic strategies.
+Computational methods for predicting protein function are of great significance in understanding biological mechanisms and treating complex diseases. However, existing computational approaches of protein function prediction lack interpretability, making it difficult to understand the relations between protein structures and functions. In this study, we propose a deep learning-based solution, named DPFunc, for accurate protein function prediction with domain-guided structure information. DPFunc can detect significant regions in protein structures and accurately predict corresponding functions under the guidance of domain information. It outperforms current state-of-the-art methods and achieves a significant improvement over existing structure-based methods. Detailed analyses demonstrate that the guidance of domain information contributes to DPFunc for protein function prediction, enabling our method to detect key residues or regions in protein structures, which are closely related to their functions. In summary, DPFunc serves as an effective tool for large-scale protein function prediction, which pushes the border of protein understanding in biological systems.
