@@ -4,15 +4,22 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Aslı Gök
+**Presenter:** Arda Arslan
 
-**Date:** 16 January 2025, 10:00 UTC+3 (Istanbul)
+**Date:** 23 January 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [DPFunc: accurately predicting protein function via deep learning with domain-guided structure information](https://www.nature.com/articles/s41467-024-54816-8)
+**Paper:** [Are genomic language models all you need? Exploring genomic language models on protein downstream tasks](https://academic.oup.com/bioinformatics/article/40/9/btae529/7745814)
 
-**Citation:** Wang, W., Shuai, Y., Zeng, M., Fan, W., & Li, M. (2025). DPFunc: accurately predicting protein function via deep learning with domain-guided structure information. Nature Communications, 16(1), 70.
+**Citation:** Boshar, S., Trop, E., de Almeida, B. P., Copoiu, L., & Pierrot, T. (2024). Are genomic language models all you need? exploring genomic language models on protein downstream tasks. Bioinformatics, 40(9), btae529.
 
 
 **Abstract:**
 
-Computational methods for predicting protein function are of great significance in understanding biological mechanisms and treating complex diseases. However, existing computational approaches of protein function prediction lack interpretability, making it difficult to understand the relations between protein structures and functions. In this study, we propose a deep learning-based solution, named DPFunc, for accurate protein function prediction with domain-guided structure information. DPFunc can detect significant regions in protein structures and accurately predict corresponding functions under the guidance of domain information. It outperforms current state-of-the-art methods and achieves a significant improvement over existing structure-based methods. Detailed analyses demonstrate that the guidance of domain information contributes to DPFunc for protein function prediction, enabling our method to detect key residues or regions in protein structures, which are closely related to their functions. In summary, DPFunc serves as an effective tool for large-scale protein function prediction, which pushes the border of protein understanding in biological systems.
+**Motivation:**
+Large language models, trained on enormous corpora of biological sequences, are state-of-the-art for downstream genomic and proteomic tasks. Since the genome contains the information to encode all proteins, genomic language models (gLMs) hold the potential to make downstream predictions not only about DNA sequences, but also about proteins. However, the performance of gLMs on protein tasks remains unknown, due to few tasks pairing proteins with the coding DNA sequences (CDS) that can be processed by gLMs.
+
+**Results:**
+In this work, we curated five such datasets and used them to evaluate the performance of gLMs and proteomic language models (pLMs). We show that gLMs are competitive and even outperform their pLMs counterparts on some tasks. The best performance was achieved using the retrieved CDS compared to sampling strategies. We found that training a joint genomic-proteomic model outperforms each individual approach, showing that they capture different but complementary sequence representations, as we demonstrate through model interpretation of their embeddings. Lastly, we explored different genomic tokenization schemes to improve downstream protein performance. We trained a new Nucleotide Transformer (50M) foundation model with 3mer tokenization that outperforms its 6mer counterpart on protein tasks while maintaining performance on genomics tasks. The application of gLMs to proteomics offers the potential to leverage rich CDS data, and in the spirit of the central dogma, the possibility of a unified and synergistic approach to genomics and proteomics.
+
+**Availability and implementation:**
+We make our inference code, 3mer pre-trained model weights and datasets available.
