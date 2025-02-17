@@ -1,6 +1,6 @@
 # Past Meetings
 
-## Next Meeting
+## 13 February 2025
 
 **Presenter:** Özlem Şimşek
 
