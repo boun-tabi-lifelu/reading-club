@@ -4,14 +4,14 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Özlem Şimşek
+**Presenter:** Özdeniz Dolu
 
-**Date:** 13 February 2025, 10:00 UTC+3 (Istanbul)
+**Date:** 20 February 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [A comprehensive review and comparison of existing computational methods for protein function prediction](https://academic.oup.com/bib/article/25/4/bbae289/7696515)
+**Paper:** [Prediction of virus-host associations using protein language models and multiple instance learning](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1012597)
 
-**Citation:** Baohui Lin, Xiaoling Luo, Yumeng Liu, Xiaopeng Jin (2024). A comprehensive review and comparison of existing computational methods for protein function prediction. Briefings in Bioinformatics, Volume 25, Issue 4, July 2024.
+**Citation:** Liu, D., Young, F., Lamb, K. D., Robertson, D. L., & Yuan, K. (2024). Prediction of virus-host associations using protein language models and multiple instance learning. PLOS Computational Biology, 20(11), 1-25. 
 
 **Abstract:**
 
-Protein function prediction is critical for understanding the cellular physiological and biochemical processes, and it opens up new possibilities for advancements in fields such as disease research and drug discovery. During the past decades, with the exponential growth of protein sequence data, many computational methods for predicting protein function have been proposed. Therefore, a systematic review and comparison of these methods are necessary. In this study, we divide these methods into four different categories, including sequence-based methods, 3D structure-based methods, PPI network-based methods and hybrid information-based methods. Furthermore, their advantages and disadvantages are discussed, and then their performance is comprehensively evaluated and compared. Finally, we discuss the challenges and opportunities present in this field.
+Predicting virus-host associations is essential to determine the specific host species that viruses interact with, and discover if new viruses infect humans and animals. Currently, the host of the majority of viruses is unknown, particularly in microbiomes. To address this challenge, we introduce EvoMIL, a deep learning method that predicts the host species for viruses from viral sequences only. It also identifies important viral proteins that significantly contribute to host prediction. The method combines a pre-trained large protein language model (ESM) and attention-based multiple instance learning to allow protein-orientated predictions. Our results show that protein embeddings capture stronger predictive signals than sequence composition features, including amino acids, physiochemical properties, and DNA k-mers. In multi-host prediction tasks, EvoMIL achieves median F1 score improvements of 10.8%, 16.2%, and 4.9% in prokaryotic hosts, and 1.7%, 6.6% and 11.5% in eukaryotic hosts. EvoMIL binary classifiers achieve impressive AUC over 0.95 for all prokaryotic hosts and range from roughly 0.8 to 0.9 for eukaryotic hosts. Furthermore, EvoMIL identifies important proteins in the prediction task, capturing key functions involved in virus-host specificity.
