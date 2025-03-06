@@ -1,5 +1,38 @@
 # Past Meetings
 
+## 06 March 2025
+
+**Presenter:** Burak Suyunu
+
+**Date:** 6 March 2025, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) Part 1
+
+**Citation:** Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021). https://doi.org/10.1038/s41586-021-03819-2
+
+**Abstract:**
+
+Proteins are essential to life, and understanding their structure can facilitate a mechanistic understanding of their function. Through an enormous experimental effort, the structures of around 100,000 unique proteins have been determined, but this represents a small fraction of the billions of known protein sequences. Structural coverage is bottlenecked by the months to years of painstaking effort required to determine a single protein structure. Accurate computational approaches are needed to address this gap and to enable large-scale structural bioinformatics. Predicting the three-dimensional structure that a protein will adopt based solely on its amino acid sequence—the structure prediction component of the ‘protein folding problem’—has been an important open research problem for more than 50 years. Despite recent progress, existing methods fall far short of atomic accuracy, especially when no homologous structure is available. Here we provide the first computational method that can regularly predict protein structures with atomic accuracy even in cases in which no similar structure is known. We validated an entirely redesigned version of our neural network-based model, AlphaFold, in the challenging 14th Critical Assessment of protein Structure Prediction (CASP14), demonstrating accuracy competitive with experimental structures in a majority of cases and greatly outperforming other methods. Underpinning the latest version of AlphaFold is a novel machine learning approach that incorporates physical and biological knowledge about protein structure, leveraging multi-sequence alignments, into the design of the deep learning algorithm.
+
+**Extra Material:**
+
+**Articles:**  
+🔗 [AlphaFold 2 is here: What’s behind the structure prediction miracle?](https://www.blopig.com/blog/2021/07/alphafold-2-is-here-whats-behind-the-structure-prediction-miracle/)  
+I’d say this is the first article to read after the main paper. It provides sufficient information about the model and offers insightful commentary.  
+
+🔗 [Boris Burkov's Blog](https://borisburkov.net/2021-12-25-1/)  
+This is the most detailed and explanatory article I’ve found on the model architecture. It covers supplementary material extensively and was the most helpful for understanding the model’s details.  
+
+🔗 [The AlphaFold2 method paper: A fount of good ideas](https://moalquraishi.wordpress.com/2021/07/25/the-alphafold2-method-paper-a-fount-of-good-ideas/)  
+This article highlights specific aspects of the model and provides valuable insights.  
+
+**Videos:**  
+▶️ [Nazim Bouatta | Machine learning for protein structure prediction, Part 2: AlphaFold2 architecture](https://www.youtube.com/watch?v=ri39B0Voujc)  
+A great explanation of AF2. It does an excellent job of justifying why certain design choices were made, though it doesn’t go into the deepest architectural details. The best AF2 presentation I’ve seen.  
+
+▶️ [Highly Accurate Protein Structure Prediction with AlphaFold | Simon Kohl](https://www.youtube.com/watch?v=tTN0MM2CQLU)  
+A well-structured presentation that covers every part of the paper without diving into too much detail.
+
 ## 27 February 2025
 
 **Presenter:** Gökçe Uludoğan
@@ -100,6 +133,7 @@ Computational methods for predicting protein function are of great significance 
 
 Understanding the function of proteins is of great significance for revealing disease pathogenesis and discovering new targets. Benefiting from the explosive growth of the protein universal, deep learning has been applied to accelerate the protein annotation cycle from different biological modalities. However, most existing deep learning-based methods not only fail to effectively fuse different biological modalities, resulting in low-quality protein representations, but also suffer from the convergence of suboptimal solution caused by sparse label representations. Aiming at the above issue, we propose a multiprocedural approach for fusing heterogeneous biological modalities and annotating protein functions, i.e., MIF2GO (Multimodal Information Fusion to infer Gene Ontology terms), which sequentially fuses up to six biological modalities ranging from different biological levels in three steps, thus leading to powerful protein representations. Evaluation results on seven benchmark datasets show that the proposed method not only considerably outperforms state-of-the-art performance, but also demonstrates great robustness and generalizability across species. Besides, we also present biological insights into the associations between those modalities and protein functions. This research provides a robust framework for integrating multimodal biological data, offering a scalable solution for protein function annotation, ultimately facilitating advancements in precision medicine and the discovery of novel therapeutic strategies.
 
+## 26 December 2024
 
 **Presenter:** Burak Suyunu
 

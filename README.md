@@ -6,9 +6,9 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 **Presenter:** Burak Suyunu
 
-**Date:** 6 March 2025, 10:00 UTC+3 (Istanbul)
+**Date:** 13 March 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2)
+**Paper:** [Highly accurate protein structure prediction with AlphaFold](https://www.nature.com/articles/s41586-021-03819-2) Part 2
 
 **Citation:** Jumper, J., Evans, R., Pritzel, A. et al. Highly accurate protein structure prediction with AlphaFold. Nature 596, 583–589 (2021). https://doi.org/10.1038/s41586-021-03819-2
 
