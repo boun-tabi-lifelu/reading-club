@@ -4,14 +4,14 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Özlem Şimşek
+**Presenter:** Özdeniz Dolu
 
-**Date:** 20 March 2025, 10:00 UTC+3 (Istanbul)
+**Date:** 10 April 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Fine-tuning protein language models boosts predictions across diverse tasks](https://www.nature.com/articles/s41467-024-51844-2)
+**Paper:** [Molecular grammars of intrinsically disordered regions that span the human proteome](https://www.biorxiv.org/content/10.1101/2025.02.27.640591v1)
 
-**Citation:** Schmirler, R., Heinzinger, M., & Rost, B. (2024). Fine-tuning protein language models boosts predictions across diverse tasks. Nature Communications, 15, 2024
+**Citation:** Ruff, K. M., King, M. R., Ying, A. W., Liu, V., Pant, A., Lieberman, W. E., … Pappu, R. V. (2025). Molecular grammars of intrinsically disordered regions that span the human proteome. bioRxiv. doi:10.1101/2025.02.27.640591
 
 **Abstract:**
 
-Prediction methods inputting embeddings from protein language models have reached or even surpassed state-of-the-art performance on many protein prediction tasks. In natural language processing fine-tuning large language models has become the de facto standard. In contrast, most protein language model-based protein predictions do not back-propagate to the language model. Here, we compare the fine-tuning of three state-of-the-art models (ESM2, ProtT5, Ankh) on eight different tasks. Two results stand out. Firstly, task-specific supervised fine-tuning almost always improves downstream predictions. Secondly, parameter-efficient fine-tuning can reach similar improvements consuming substantially fewer resources at up to 4.5-fold acceleration of training over fine-tuning full models. Our results suggest to always try fine-tuning, in particular for problems with small datasets, such as for fitness landscape predictions of a single protein. For ease of adaptability, we provide easy-to-use notebooks to fine-tune all models used during this work for per-protein (pooling) and per-residue prediction tasks.
+Intrinsically disordered regions (IDRs) of proteins are defined by functionally relevant molecular grammars. This refers to IDR-specific non-random amino acid compositions and non-random patterning of distinct pairs of amino acid types. Here, we introduce GIN (Grammars Inferred using NARDINI+) as a resource, which we have used to extract the molecular grammars of all human IDRs and classified them into thirty distinct clusters. Unbiased analyses of IDRome-spanning grammars reveals that specialized IDR grammar features direct biological processes, cellular localization preferences, and molecular functions. IDRs with exceptional grammars, defined as sequences with high-scoring non-random features, are harbored in proteins and complexes that enable spatial and temporal sorting of biochemical activities. Protein complexes within the nucleus recruit specific factors through top-scoring IDRs. These IDRs are frequently disrupted via cancer-associated mutations and fusion oncoproteins. Overall, GIN enables the decoding of sequence-function relationships of IDRs and can be deployed in IDR-specific and IDRome-wide analyses.
