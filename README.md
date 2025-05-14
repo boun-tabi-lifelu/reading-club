@@ -3,15 +3,14 @@
 This repository contains announcements and materials for the LifeLU reading group, which presents works related to protein understanding.
 
 ## Next Meeting
-**Presenter:** Gökçe Uludoğan
+**Presenter:** Burak Suyunu
 
-**Date:** 17 April 2025, 10:00 UTC+3 (Istanbul)
+**Date:** 15 May 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Miniaturizing, Modifying, and Magnifying Nature’s Proteins with Raygun](https://www.biorxiv.org/content/10.1101/2024.08.13.607858v2)
+**Paper:** [Accurate structure prediction of biomolecular interactions with AlphaFold 3](https://www.nature.com/articles/s41586-024-07487-w)
 
-**Citation:** Devkota, K., Shonai, D., Mao, J., Ko, Y. S., Wang, W., Soderling, S., & Singh, R. (2024). Miniaturizing, Modifying, and Magnifying Nature’s Proteins with Raygun. bioRxiv, 2024-08.
+**Citation:** Abramson, J., Adler, J., Dunger, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024). https://doi.org/10.1038/s41586-024-07487-w
 
 **Abstract:**
 
-Proteins have evolved over billions of years through extensive and coordinated substitutions, insertions and deletions (indels). Computational protein design cannot yet fully mimic nature's ability to engineer new proteins from existing templates. Protein language models generate informative per-residue representations, but leveraging them to execute large-scale, function-preserving mutations and indels has remained beyond reach. We introduce Raygun, a generative AI framework that unlocks efficient miniaturization, modification, and augmentation of proteins, using a novel probabilistic encoding of protein sequences constructed from language model embeddings. Emulating evolution, Raygun shrinks proteins by 10-25% (sometimes over 50%) while preserving predicted structural integrity and fidelity, introduces extensive sequence diversity while preserving functional sites, and can expand proteins beyond their natural size. These capabilities unlock new opportunities in gene therapy and biotechnology. In cell-based validation, Raygun successfully miniaturized fluorescent proteins, two of which are smaller than 96% of fluorescent proteins reported in FPbase, as well as TurboID, a synthetic biotin ligase widely adopted for proteomics. It also successfully expanded Epidermal Growth Factor (EGF), a natural binding partner to the EGFR protein, generating EGF variants with higher binding affinity than the wildtype. Raygun's conceptual innovations in template-based protein design reveal that protein function can be encoded in a length-independent space. This fundamental insight bridges protein representation learning with evolutionary biology and could unlock the development of more efficient molecular tools and biological therapeutics.
-
+The introduction of AlphaFold 2 has spurred a revolution in modelling the structure of proteins and their interactions, enabling a huge range of applications in protein modelling and design. Here we describe our AlphaFold 3 model with a substantially updated diffusion-based architecture that is capable of predicting the joint structure of complexes including proteins, nucleic acids, small molecules, ions and modified residues. The new AlphaFold model demonstrates substantially improved accuracy over many previous specialized tools: far greater accuracy for protein–ligand interactions compared with state-of-the-art docking tools, much higher accuracy for protein–nucleic acid interactions compared with nucleic-acid-specific predictors and substantially higher antibody–antigen prediction accuracy compared with AlphaFold-Multimer v.2.3. Together, these results show that high-accuracy modelling across biomolecular space is possible within a single unified deep-learning framework.
