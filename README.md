@@ -7,7 +7,7 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 **Date:** 15 May 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Accurate structure prediction of biomolecular interactions with AlphaFold 3](https://www.nature.com/articles/s41586-024-07487-w)
+**Paper:** [Accurate structure prediction of biomolecular interactions with AlphaFold 3](https://www.nature.com/articles/s41586-024-07487-w) (Part 2)
 
 **Citation:** Abramson, J., Adler, J., Dunger, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024). https://doi.org/10.1038/s41586-024-07487-w
 

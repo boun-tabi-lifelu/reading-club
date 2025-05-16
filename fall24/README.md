@@ -1,4 +1,38 @@
 # Past Meetings
+
+## 15 May 2025
+**Presenter:** Burak Suyunu
+
+**Date:** 15 May 2025, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [Accurate structure prediction of biomolecular interactions with AlphaFold 3](https://www.nature.com/articles/s41586-024-07487-w) (Part 1)
+
+**Citation:** Abramson, J., Adler, J., Dunger, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024). https://doi.org/10.1038/s41586-024-07487-w
+
+**Material:** 
+- [Slides](LifeLU_Reading-150525-Alphafold3(Part1)-Burak.pdf)
+
+**Abstract:**
+
+The introduction of AlphaFold 2 has spurred a revolution in modelling the structure of proteins and their interactions, enabling a huge range of applications in protein modelling and design. Here we describe our AlphaFold 3 model with a substantially updated diffusion-based architecture that is capable of predicting the joint structure of complexes including proteins, nucleic acids, small molecules, ions and modified residues. The new AlphaFold model demonstrates substantially improved accuracy over many previous specialized tools: far greater accuracy for protein–ligand interactions compared with state-of-the-art docking tools, much higher accuracy for protein–nucleic acid interactions compared with nucleic-acid-specific predictors and substantially higher antibody–antigen prediction accuracy compared with AlphaFold-Multimer v.2.3. Together, these results show that high-accuracy modelling across biomolecular space is possible within a single unified deep-learning framework.
+
+**Extra Material:**
+
+**Articles:**  
+🔗 [The Illustrated AlphaFold](https://elanapearl.github.io/blog/2024/the-illustrated-alphafold/)
+
+🔗 [AlphaFold3 and its improvements in comparison to AlphaFold2](https://medium.com/@falk_hoffmann/alphafold3-and-its-improvements-in-comparison-to-alphafold2-96815ffbb044)  
+
+🔗 [AlphaFold2, AlphaFold-Multimer, AlphaFold3](https://310.ai/blog/alphafold2-alphafold-multimer-alphafold3)  
+
+🔗 ["Sparks of Chemical Intuition"-and Gross Limitations!-in AlphaFold 3](https://towardsdatascience.com/sparks-of-chemical-intuition-and-gross-limitations-in-alphafold-3-8487ba4dfb53/)  
+
+🔗 [AlphaFold3 Explained](https://www.ai4pharm.info/alphafold3)  
+
+**Videos:**  
+▶️ [AlphaFold 3 deep dive | Looking Glass Universe](https://www.youtube.com/watch?v=Or3iq4_9-wA)  
+
+
 ## 17 April 2025
 
 **Presenter:** Gökçe Uludoğan
