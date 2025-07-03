@@ -1,5 +1,26 @@
 # Past Meetings
 
+## 26 June 2025
+
+**Presenter:** Özdeniz Dolu
+
+**Date:** 26 June 2025, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [DeepProSite: structure-aware protein binding site prediction using ESMFold and pretrained language model](https://doi.org/10.1093/bioinformatics/btad718)
+
+**Citation:** Yitian Fang, Yi Jiang, Leyi Wei, Qin Ma, Zhixiang Ren, Qianmu Yuan, Dong-Qing Wei, DeepProSite: structure-aware protein binding site prediction using ESMFold and pretrained language model, Bioinformatics, Volume 39, Issue 12, December 2023, btad718, https://doi.org/10.1093/bioinformatics/btad718
+
+**Material:** 
+- [Slides](26-06-25_Ozdeniz_Slides_DeepProSite.pdf)
+- [Paper](26-06-25_Ozdeniz_Paper_DeepProSite.pdf)
+
+**Abstract:**
+Motivation:
+Identifying the functional sites of a protein, such as the binding sites of proteins, peptides, or other biological components, is crucial for understanding related biological processes and drug design. However, existing sequence-based methods have limited predictive accuracy, as they only consider sequence-adjacent contextual features and lack structural information.
+Results:
+In this study, DeepProSite is presented as a new framework for identifying protein binding site that utilizes protein structure and sequence information. DeepProSite first generates protein structures from ESMFold and sequence representations from pretrained language models. It then uses Graph Transformer and formulates binding site predictions as graph node classifications. In predicting protein–protein/peptide binding sites, DeepProSite outperforms state-of-the-art sequence- and structure-based methods on most metrics. Moreover, DeepProSite maintains its performance when predicting unbound structures, in contrast to competing structure-based prediction methods. DeepProSite is also extended to the prediction of binding sites for nucleic acids and other ligands, verifying its generalization capability. Finally, an online server for predicting multiple types of residue is established as the implementation of the proposed DeepProSite.
+
+
 ## 19 June 2025
 **Presenter:** Burak Suyunu
 
