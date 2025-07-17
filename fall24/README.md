@@ -1,5 +1,22 @@
 # Past Meetings
 
+## 17 July 2025
+
+**Presenter:** Amirreza Sattarzadeh (Emir Rıza Settarzade)
+
+**Date:** 17 July 2025, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [PETA: evaluating the impact of protein transfer learning with sub-word tokenization on downstream applications](https://doi.org/10.1186/s13321-024-00884-3)
+
+**Citation:** Tan, Y., Li, M., Zhou, Z. et al. PETA: evaluating the impact of protein transfer learning with sub-word tokenization on downstream applications. J Cheminform 16, 92 (2024). https://doi.org/10.1186/s13321-024-00884-3
+
+**Material:** 
+- [Slides](17-07-25_Emir_Slides_PETA.pdf)
+- [Paper](26-06-25_Emir_Paper_PETA.pdf)
+
+**Abstract:**
+Protein language models (PLMs) play a dominant role in protein representation learning. Most existing PLMs regard proteins as sequences of 20 natural amino acids. The problem with this representation method is that it simply divides the protein sequence into sequences of individual amino acids, ignoring the fact that certain residues often occur together. Therefore, it is inappropriate to view amino acids as isolated tokens. Instead, the PLMs should recognize the frequently occurring combinations of amino acids as a single token. In this study, we use the byte-pair-encoding algorithm and unigram to construct advanced residue vocabularies for protein sequence tokenization, and we have shown that PLMs pre-trained using these advanced vocabularies exhibit superior performance on downstream tasks when compared to those trained with simple vocabularies. Furthermore, we introduce PETA, a comprehensive benchmark for systematically evaluating PLMs. We find that vocabularies comprising 50 and 200 elements achieve optimal performance. Our code, model weights, and datasets are available at https://github.com/ginnm/ProteinPretraining. 
+
 ## 26 June 2025
 
 **Presenter:** Özdeniz Dolu
