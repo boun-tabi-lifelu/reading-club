@@ -1,5 +1,25 @@
 # Past Meetings
 
+## 7 August 2025
+
+**Presenter:** Özdeniz Dolu
+
+**Date:** 7 August 2025, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [Scaling down protein language modeling with MSA Pairformer](https://doi.org/10.1101/2025.08.02.668173)
+
+**Citation:** 
+Akiyama, Y., Zhang, Z., Mirdita, M., Steinegger, M., & Ovchinnikov, S. (2025). Scaling down protein language modeling with MSA Pairformer. bioRxiv.
+
+
+**Material:** 
+- [Slides](07-08-25_Ozdeniz_Slides_MSA_Pairformer.pdf)
+- [Paper](07-08-25_Ozdeniz_Paper_MSA_Pairformer.pdf)
+ 
+**Abstract:**
+
+Recent efforts in protein language modeling have focused on scaling single-sequence models and their training data, requiring vast compute resources that limit accessibility. Although models that use multiple sequence alignments (MSA), such as MSA Transformer, offer parameter-efficient alternatives by extracting evolutionary information directly from homologous sequences rather than storing it in parameters, they generally underperform compared to single-sequence-based language due to memory inefficiencies that limit the number of sequences and averaging evolutionary signals across the MSA. We address these challenges with MSA Pairformer, a 111M parameter memory-efficient MSA-based protein language model that extracts evolutionary signals most relevant to a query sequence through bi-directional updates of sequence and pairwise representations. MSA Pairformer achieves state-of-the-art performance in unsupervised contact prediction, outperforming ESM2-15B by 6% points while using two orders of magnitude fewer parameters. In predicting contacts at protein-protein interfaces, MSA Pairformer substantially outperforms all methods with a 24% point increase over MSA Transformer. Unlike single-sequence models that deteriorate in variant effect prediction as they scale, MSA Pairformer maintains strong performance in both tasks. Ablation studies reveal triangle operations remove indirect correlations, and unlike MSA Transformer, MSA Pairformer does not hallucinate contacts after removing covariance, enabling reliable screening of interacting sequence pairs. Overall, our work presents an alternative to the current scaling paradigm in protein language modeling, enabling efficient adaptation to rapidly expanding sequence databases and opening new directions for biological discovery.
+
 ## 24 July 2025
 
 **Presenter:** Gökçe Uludoğan
