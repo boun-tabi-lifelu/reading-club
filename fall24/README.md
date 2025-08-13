@@ -6,7 +6,7 @@
 
 **Date:** 14 August 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [SSEmb: A joint embedding of protein sequence and structure enables robust variant effect predictions]([https://doi.org/10.1101/2025.08.02.668173](https://doi.org/10.1038/s41467-024-53982-z))
+**Paper:** [SSEmb: A joint embedding of protein sequence and structure enables robust variant effect predictions](https://doi.org/10.1038/s41467-024-53982-z)
 
 **Citation:** 
 Blaabjerg, L.M., Jonsson, N., Boomsma, W. et al. SSEmb: A joint embedding of protein sequence and structure enables robust variant effect predictions. Nat Commun 15, 9646 (2024). https://doi.org/10.1038/s41467-024-53982-z
