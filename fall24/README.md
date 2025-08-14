@@ -1,4 +1,4 @@
-# Next Meeting
+# Past Meetings
 
 ## 14 August 2025
 
@@ -11,12 +11,14 @@
 **Citation:** 
 Blaabjerg, L.M., Jonsson, N., Boomsma, W. et al. SSEmb: A joint embedding of protein sequence and structure enables robust variant effect predictions. Nat Commun 15, 9646 (2024). https://doi.org/10.1038/s41467-024-53982-z
 
+**Material:** 
+- [Slides](14-08-25_Emir_Slides_SSEmb.pdf)
+- [Paper](14-08-25_Emir_Paper_SSEmb.pdf)
+ 
 
 **Abstract:**
 
 The ability to predict how amino acid changes affect proteins has a wide range of applications including in disease variant classification and protein engineering. Many existing methods focus on learning from patterns found in either protein sequences or protein structures. Here, we present a method for integrating information from sequence and structure in a single model that we term SSEmb (Sequence Structure Embedding). SSEmb combines a graph representation for the protein structure with a transformer model for processing multiple sequence alignments. We show that by integrating both types of information we obtain a variant effect prediction model that is robust when sequence information is scarce. We also show that SSEmb learns embeddings of the sequence and structure that are useful for other downstream tasks such as to predict protein-protein binding sites. We envisage that SSEmb may be useful both for variant effect predictions and as a representation for learning to predict protein properties that depend on sequence and structure.
-
-# Past Meetings
 
 ## 7 August 2025
 
