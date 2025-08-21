@@ -3,16 +3,19 @@
 This repository contains announcements and materials for the LifeLU reading group, which presents works related to protein understanding.
 
 ## Next Meeting
-**Presenter:** Burak Suyunu
+**Presenter:** Özlem Şimşek
 
-**Date:** 21 August 2025, 10:00 UTC+3 (Istanbul)
+**Date:** 28 August 2025, 10:00 UTC+3 (Istanbul)
 
-**Paper:** [Protein Structure Tokenization: Benchmarking and New Recipe](https://arxiv.org/abs/2503.00089)
+**Paper:** [Prot2Chat: protein large language model with early fusion of text, sequence, and structure](https://academic.oup.com/bioinformatics/article/41/8/btaf396/8215464)
 
 **Citation:** 
-Yuan, X., Wang, Z., Collins, M., & Rangwala, H. (2025). Protein structure tokenization: Benchmarking and new recipe. arXiv preprint arXiv:2503.00089.
+Zhicong Wang, Zicheng Ma, Ziqiang Cao, Changlong Zhou, Jun Zhang, Yi Qin Gao, Prot2Chat: protein large language model with early fusion of text, sequence, and structure, Bioinformatics, Volume 41, Issue 8, August 2025, btaf396, https://doi.org/10.1093/bioinformatics/btaf396
 
 **Abstract:**
 
-Recent years have witnessed a surge in the development of protein structural tokenization methods, which chunk protein 3D structures into discrete or continuous representations. Structure tokenization enables the direct application of powerful techniques like language modeling for protein structures, and large multimodal models to integrate structures with protein sequences and functional texts. Despite the progress, the capabilities and limitations of these methods remain poorly understood due to the lack of a unified evaluation framework. We first introduce StructTokenBench, a framework that comprehensively evaluates the quality and efficiency of structure tokenizers, focusing on fine-grained local substructures rather than global structures, as typical in existing benchmarks. Our evaluations reveal that no single model dominates all benchmarking perspectives. Observations of codebook under-utilization led us to develop AminoAseed, a simple yet effective strategy that enhances codebook gradient updates and optimally balances codebook size and dimension for improved tokenizer utilization and quality. Compared to the leading model ESM3, our method achieves an average of 6.31% performance improvement across 24 supervised tasks, with sensitivity and utilization rates increased by 12.83% and 124.03%, respectively. Source code and model weights are available at https://github.com/KatarinaYuan/StructTokenBench.
+Motivation: Proteins are of great significance in living organisms. However, understanding their functions encounters numerous challenges, such as insufficient integration of multimodal information, a large number of training parameters, limited flexibility of classification-based methods, and the lack of systematic evaluation metrics for protein question answering systems. To tackle these issues, we propose the Prot2Chat framework.
 
+Results: We modified ProteinMPNN to encode protein sequence and structural information in a unified way. We used a large language model (LLM) to encode questions into vectors and developed a protein-text adapter to compress protein information into virtual tokens based on these vectors, achieving the early fusion of text and protein information. Finally, the same LLM reads the virtual tokens and the questions to generate answers. To optimize training efficiency, we froze the encoder and employed low-rank adaptation (LoRA) techniques for the LLM. Experiments on two datasets show that both automated metrics and expert evaluations demonstrate the superior performance of our model, and zero-shot prediction results highlight its generalization ability. We have developed an easy-to-use web interactive platform and a rapid installation option, allowing users to swiftly engage with Prot2Chat.
+
+Availability and implementation: The models and codes are available at https://github.com/wangzc1233/Prot2Chat.
