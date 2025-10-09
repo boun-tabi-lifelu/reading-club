@@ -19,6 +19,27 @@ Multi-Task Protein Language Processing](https://doi.org/10.1109/TAI.2025.3564914
 
 Recent advances in Protein Language Models (PLMs) have transformed protein engineering, yet unlike their counterparts in Natural Language Processing (NLP), current PLMs exhibit a fundamental limitation: they excel in either Protein Language Understanding (PLU) or Protein Language Generation (PLG), but rarely both. This fragmentation hinders progress in protein engineering. To bridge this gap, we introduce ProLLaMA, a multitask protein language model enhanced by the Evolutionary Protein Generation Framework (EPGF). We construct a comprehensive instruction dataset containing approximately 13 million samples with over 11,000 superfamily annotations to facilitate better modeling of sequence-function landscapes. We leverage a two-stage training approach to develop ProLLaMA, a multitask LLM with protein domain expertise. Our EPGF addresses the mismatch between statistic language modeling and biological constraints through three innovations: a multi-dimensional interpretable scorer, hierarchical efficient decoding, and a probabilistic-biophysical joint selection mechanism. Extensive experiments demonstrate that ProLLaMA excels in both unconditional and controllable protein generation tasks, achieving superior structural quality metrics compared to existing PLMs. Additionally, ProLLaMA demonstrates strong understanding capabilities with a 67.1% exact match rate in superfamily prediction. EPGF significantly enhances the biological viability of generated sequences, as evidenced by improved biophysical scores (+4.3%) and structural metrics (+14.5%).
 
+## 11 September 2025
+
+**Presenter:** Özdeniz Dolu
+
+**Date:** 11 September 2025, 10:00 UTC+3 (Istanbul)
+
+**Paper:** [Deep learning models for unbiased sequence-based PPI prediction plateau at an accuracy of 0.65](https://doi.org/10.1093/bioinformatics/btaf192)
+
+**Citation:** Timo Reim, Anne Hartebrodt, David B Blumenthal, Judith Bernett, Markus List, Deep learning models for unbiased sequence-based PPI prediction plateau at an accuracy of 0.65, Bioinformatics, Volume 41, Issue Supplement_1, July 2025, Pages i590–i598
+
+**Material:** 
+- [Slides](11-09-25_Ozdeniz_Slides_PPI_Plateau.pdf)
+- [Paper](11-09-25_Ozdeniz_Paper_PPI_Plateau.pdf)
+ 
+**Abstract:**
+
+Motivation:
+As most proteins interact with other proteins to perform their respective functions, methods to computationally predict these interactions have been developed. However, flawed evaluation schemes and data leakage in test sets have obscured the fact that sequence-based protein–protein interaction (PPI) prediction is still an open problem. Recently, methods achieving better-than-random performance on leakage-reduced PPI data have been proposed.
+Results:
+Here, we show that the use of ESM-2 protein embeddings explains this performance gain irrespective of model architecture. We compared the performance of models with varying complexity, per-protein, and per-token embeddings, as well as the influence of self- or cross-attention, where all models plateaued at an accuracy of 0.65. Moreover, we show that the tested sequence-based models cannot implicitly learn a contact map as an intermediate layer. These results imply that other input types, such as structure, might be necessary for producing reliable PPI predictions.
+
 ## 4 September 2025
 **Presenter:** Gökçe Uludoğan
 
