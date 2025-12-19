@@ -1,4 +1,24 @@
 # Past Meetings
+## 11 December 2025
+
+**Presenter:** Özdeniz Dolu
+
+**Date:** 11 December 2025, 14:00 UTC+3 (Istanbul)
+
+**Paper:** [Rewriting protein alphabets with language models
+](https://doi.org/10.1101/2025.11.27.690975)
+
+**Citation:** Pantolini, L., Studer, G., Engist, L., Pudziuvelyte, I., Pommerening, F., Waterhouse, A., Tauriello, G., Steinegger, M., Schwede, T., & Durairaj, J. (2025). Rewriting protein alphabets with language models. bioRxiv.
+
+
+
+**Material:** 
+- [Slides](11-12-25_Ozdeniz_Slides_Rewriting_Alphabet.pdf)
+- [Paper](11-12-25_Ozdeniz_Paper_Rewriting_Alphabet.pdf)
+ 
+**Abstract:**
+
+Detecting remote homology with speed and sensitivity is crucial for tasks like function annotation and structure prediction. We introduce a novel approach using contrastive learning to convert protein language model embeddings into a new 20-letter alphabet, TEA, enabling highly efficient large-scale protein homology searches. Searching with our alphabet performs on par with and complements structure-based methods without requiring any structural information, and with the speed of sequence search. Ultimately, we bring the exciting advances in protein language model representation learning to the plethora of sequence bioinformatics algorithms developed over the past century, offering a powerful new tool for biological discovery.
 
 ## 25 September 2025
 
