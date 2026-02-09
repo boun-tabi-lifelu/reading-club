@@ -1,5 +1,26 @@
 # Past Meetings
 
+## 05 February 2026
+
+**Presenter:** Buse Giledereli
+
+**Date:** 05 February 206, 14:00 UTC+3 (Istanbul)
+
+**Paper:** [Zero-shot segmentation using embeddings from a protein language model identifies functional regions in the human proteome
+](https://doi.org/10.1371/journal.pcbi.1012929)
+
+**Citation:** Sangster, A. G., Dufault, C., Qu, H., Le, D., Forman-Kay, J. D., & Moses, A. M. (2025). Zero-shot segmentation using embeddings from a protein language model identifies functional regions in the human proteome. PLoS computational biology, 21(11), e1012929. https://doi.org/10.1371/journal.pcbi.1012929
+
+
+
+**Material:** 
+- [Slides](05-02-2026_Buse_Slides_ZPS.pdf)
+- [Paper](05-02-2026_Buse_Paper_ZPS.pdf)
+ 
+**Abstract:**
+
+Protein structure is central to biological function, and enabling multimodal protein models requires joint reasoning over sequence, structure, and function. A key barrier is the lack of principled protein structure tokenizers (PSTs): existing approaches fix token size or rely on continuous vector codebooks, limiting interpretability, multi-scale control, and transfer across architectures. We introduce GEOBPE, a geometry-grounded PST that transforms continuous, noisy, multiscale backbone conformations into discrete “sentences” of geometry while enforcing global constraints. Analogous to byte-pair encoding, GEOBPE generates a hierarchical vocabulary of geometric primitives by iteratively (i) clustering Geo-Pair occurrences with k-medoids to yield a resolution-controllable vocabulary; (ii) quantizing each Geo-Pair to its closest medoid prototype; and (iii) reducing drift through differentiable inverse kinematics that optimizes boundary glue angles under an SE(3) end-frame loss. GEOBPE offers compression (>10× reduction in bits-per-residue at similar distortion rate), data efficiency (>10× less training data), and generalization (maintains test/train distortion ratio of 1.0 − 1.1). It is architecture-agnostic: (a) its hierarchical vocabulary provides a strong inductive bias for coarsening residue-level embeddings from large PLMs into motif- and protein-level representations, consistently outperforming leading PSTs across 12 tasks and 24 test splits; (b) paired with a transformer, GEOBPE supports unconditional backbone generation via language modeling; and (c) tokens align with CATH functional families and support expert-interpretable case studies, offering functional meaning absent in prior PSTs. Code is available at https://github.com/shiningsunnyday/PT-BPE/.
+
 ## 18 December 2025
 
 **Presenter:** Buse Giledereli
