@@ -3,9 +3,13 @@
 
 ## 13 February 2026
 **Presenter:** Başar Temiz
+
 **Date:** 13 February 2026
+
 **Paper:** [Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects](https://doi.org/10.1101/2024.10.11.617911)
+
 **Citation:** Hou, C., Zhao, H., & Shen, Y. (2026). Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects. bioRxiv. https://doi.org/10.1101/2024.10.11.617911
+
 **Material:**
 - [Slides](12-2-26%20Basar%20presentation%20seqdance.key)
 - [Paper](12-02-26_Basar_PaperSeqDance.pdf)
