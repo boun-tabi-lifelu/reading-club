@@ -1,5 +1,30 @@
 # Past Meetings
 
+
+## 13 February 2026
+**Presenter:** Başar Temiz
+**Date:** 13 February 2026
+**Paper:** [Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects](https://doi.org/10.1101/2024.10.11.617911)
+**Citation:** Hou, C., Zhao, H., & Shen, Y. (2026). Protein Language Models Trained on Biophysical Dynamics Inform Mutation Effects. bioRxiv. https://doi.org/10.1101/2024.10.11.617911
+**Material:**
+- [Slides](12-2-26%20Basar%20presentation%20seqdance.key)
+- [Paper](12-02-26_Basar_PaperSeqDance.pdf)
+
+**Abstract:**
+Structural dynamics are fundamental to protein functions and mutation effects. Current protein deep learning
+models are predominantly trained on sequence and/or static structure data, which often fail to capture the
+dynamic nature of proteins. To address this, we introduce SeqDance and ESMDance, two protein language
+models trained on dynamic biophysical properties derived from molecular dynamics simulations and normal
+mode analyses of over 64,000 proteins. Both models can be directly applied to predict dynamic properties of
+unseen ordered and disordered proteins. SeqDance, trained from scratch, has attentions that capture dynamic
+interaction and co-movement between residues, and its embeddings encode rich representations of protein
+dynamics that can be further utilized to predict conformational properties beyond the training tasks via transfer
+learning. SeqDance predicted dynamic property changes reflect mutation effect on protein folding stability.
+ESMDance, built upon ESM2 (Evolutionary Scale Model II) outputs, substantially outperforms ESM2 in zero-
+shot prediction of mutation effects for designed and viral proteins which lack evolutionary information.
+Together, SeqDance and ESMDance offer a new framework for integrating protein dynamics into language
+models, enabling more generalizable predictions of protein behavior and mutation effects.
+
 ## 05 February 2026
 
 **Presenter:** Buse Giledereli
