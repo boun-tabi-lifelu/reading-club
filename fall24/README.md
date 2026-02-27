@@ -7,8 +7,9 @@
 
 **Paper:** [Protein Language Modeling beyond static folds reveals sequence-encoded flexibility](https://www.biorxiv.org/content/10.64898/2026.01.21.700698v1)
 
-**Citation:** Finn H. Lüth, Victor Mihaila, Milot Mirdita, Martin Steinegger, Burkhard Rost, Michael Heinzinger
-[doi](https://doi.org/10.64898/2026.01.21.700698)
+**Citation:** Protein Language Modeling beyond static folds reveals sequence-encoded flexibility
+Finn H. Lüth, Victor Mihaila, Milot Mirdita, Martin Steinegger, Burkhard Rost, Michael Heinzinger
+bioRxiv 2026.01.21.700698; (https://doi.org/10.64898/2026.01.21.700698)
 
 **Material:**
 - [Slides](20-02-26_Beyza_PresentationProtProfileMD.pdf)
