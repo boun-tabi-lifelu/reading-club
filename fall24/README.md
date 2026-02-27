@@ -1,5 +1,24 @@
 # Past Meetings
 
+## 20 February 2026
+**Presenter:** Beyza Nur Deniz
+
+**Date:** 20 February 2026
+
+**Paper:** [Protein Language Modeling beyond static folds reveals sequence-encoded flexibility](https://www.biorxiv.org/content/10.64898/2026.01.21.700698v1)
+
+**Citation:** Finn H. Lüth, Victor Mihaila, Milot Mirdita, Martin Steinegger, Burkhard Rost, Michael Heinzinger
+[doi](https://doi.org/10.64898/2026.01.21.700698)
+
+**Material:**
+- [Slides](20-02-26_Beyza_PresentationProtProfileMD.pdf)
+- [Paper](20-02-26_Beyza_PresentationProtProfileMD.pdf)
+
+**Abstract:**
+
+**Motivation:** Proteins function through motion. Yet, most discoveries still commence with static representations of protein structures. Here, we investigated the feasibility of leveraging protein dynamics to improve homology detection.
+
+**Results:** We introduce ProtProfileMD, a sequence-to-3D-probability model that predicts, from an amino acid sequence, a profile of discrete structural representations capturing protein dynamics. We applied supervised parameter-efficient finetuning of the ProstT5 protein Language Model (pLM) to predict per-residue distributions over Foldseek’s 3Di alphabet derived from motions observed in molecular dynamics. This original result reveals that the 3Di tokens, despite being coarse-grained descriptors of 3D structure, still offer sufficient resolution to capture aspects of conformational changes. This is evidenced by a correlation between fluctuations in the 3D protein structure over the course of a molecular dynamics trajectory and the entropy of 3Di states. Based on this insight, we introduce a proof-of-concept for making remote homology detection of proteins more sensitive by leveraging a protein’s distinctive dynamic fingerprint captured by our model. Our method recovers flexibility signals with a fidelity that is biologically relevant, improving search and complementing protein structure predictions, for example, by flagging flexible, disordered, or other functionally relevant regions.
 
 ## 13 February 2026
 **Presenter:** Başar Temiz
