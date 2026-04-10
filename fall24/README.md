@@ -1,5 +1,23 @@
 # Past Meetings
 
+
+## 10 April 2026
+
+**Presenter:** Gökçe Uludoğan 
+
+**Date:** 10 April 2026, 11:00 UTC+3 (Istanbul)
+
+**Paper:** [Compressing the collective knowledge of ESM into a single protein language model]([https://www.biorxiv.org/content/10.64898/2026.01.29.702509v1](https://www.nature.com/articles/s41592-026-03050-9))
+
+**Citation:** Dinh, T., Jang, S. K., Zaitlen, N., & Ntranos, V. (2026). Compressing the collective knowledge of ESM into a single protein language model. Nature Methods, 1-13.
+
+**Material:**
+- [Slides](10-04-2026-VESM.pdf)
+
+**Abstract:**
+
+Protein function and other biological properties often depend on structural dynamics, yet most machine-learning predictors rely on static representations. Physics-based molecular simulations can describe conformational variability but remain computationally prohibitive at scale. Generative models provide a more efficient alternative, though their ability to produce accurate conformational ensembles is still limited. In this work, we bypass expensive simulations by leveraging residue–residue distance probability distributions (distograms) from structure predictors such as AlphaFold2. Our approach provides a scalable way to encode dynamic information into protein representations, aiming to improve function prediction without explicit conformational sampling.
+
 ## 6 March 2026
 
 **Presenter:** Gökçe Uludoğan 
