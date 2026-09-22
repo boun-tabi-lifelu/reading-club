@@ -4,8 +4,8 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Buse Giledereli
-**Date:** 22 May 2026, 11:00 UTC+3 (Istanbul)
+**Presenter:** TBD
+**Date:** TBD
 
 **Paper:** 
 
