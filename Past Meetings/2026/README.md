@@ -68,6 +68,7 @@ Protein language models (PLMs) have transferred the latest advances from natural
 
 **Material:**
 - [Code (SCISOR)](https://github.com/baronet2/SCISOR)
+- [Slides](07-08-26_Ozdeniz_SCISOR_slides.pdf)
 
 **Abstract:**
 
