@@ -22,5 +22,5 @@ Recent advances in AI have enabled the accurate prediction of a single stable pr
 | 2 October 2026 | Özdeniz Dolu |
 | 9 October 2026 | Buse Giledereli |
 | 16 October 2026 | Burak Suyunu |
-| 23 October 2026 | Amirreza Sattarzadeh (Emir Rıza Settarzade) |
-| 30 October 2026 | Ahmet Yigit |
+| 23 October 2026 | Amirreza Sattarzadeh |
+| 30 October 2026 | Ahmet Yigit Dogan |
