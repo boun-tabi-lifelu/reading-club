@@ -99,7 +99,7 @@ Protein structure tokenization converts 3D structures into discrete or vectorize
 **Citation:** Koehl, A., Prillo, S., Liu, M., Xiong, J., Weng, L., Savage, D. F., & Song, Y. S. (2026). Deep models of protein evolution in time generate realistic evolutionary trajectories and functional proteins. bioRxiv.
 
 **Material:**
-- [Paper](24-07-26_Gökçe_Deep models of protein evolution in time generate realistic evolutionary trajectories and functional proteins.pdf)
+- [Slides](24-07-26_Gökçe_Deep%20models%20of%20protein%20evolution%20in%20time%20generate%20realistic%20evolutionary%20trajectories%20and%20functional%20proteins.pdf)
 
 **Abstract:**
 
