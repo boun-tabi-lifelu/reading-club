@@ -5,9 +5,12 @@
 
 **Date:** 02 October 2026, 11:00 UTC+3 (Istanbul)
 
-**Paper 1:** [Probing the dark energy in the functional protein universe]([https://www.nature.com/articles/s42256-026-01198-9](https://www.pnas.org/doi/10.1073/pnas.2531111123))
+**Paper 1:** [Probing the dark energy in the functional protein universe](https://www.pnas.org/doi/10.1073/pnas.2531111123)
+
 **Citation 1:** E.A. Galpern,C. Bueno,I.E. Sánchez,P.G. Wolynes, & D.U. Ferreiro,  Probing the dark energy in the functional protein universe, Proc. Natl. Acad. Sci. U.S.A. 123 (4) e2531111123
+
 **Paper 2:** [An information-theoretic argument for the restriction of the current biological alphabets to 4 nucleotides and 20 amino acids](https://www.nature.com/articles/s41598-026-46009-8)
+
 **Citation 2:** Galpern, E.A., Ferreiro, D.U. & Sánchez, I.E. An information-theoretic argument for the restriction of the current biological alphabets to 4 nucleotides and 20 amino acids. Sci Rep 16, 10751 (2026).
 
 **Material:**
