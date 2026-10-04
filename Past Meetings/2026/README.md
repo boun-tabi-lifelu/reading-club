@@ -1,7 +1,7 @@
 # Past Meetings — 2026
 ## 02 October 2026
 
-**Presenter:** Gökçe Uludoğan
+**Presenter:** Özdeniz Dolu
 
 **Date:** 02 October 2026, 11:00 UTC+3 (Istanbul)
 
