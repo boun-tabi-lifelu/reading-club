@@ -1,4 +1,27 @@
 # Past Meetings — 2026
+## 02 October 2026
+
+**Presenter:** Gökçe Uludoğan
+
+**Date:** 02 October 2026, 11:00 UTC+3 (Istanbul)
+
+**Paper 1:** [Probing the dark energy in the functional protein universe]([https://www.nature.com/articles/s42256-026-01198-9](https://www.pnas.org/doi/10.1073/pnas.2531111123))
+**Citation 1:** E.A. Galpern,C. Bueno,I.E. Sánchez,P.G. Wolynes, & D.U. Ferreiro,  Probing the dark energy in the functional protein universe, Proc. Natl. Acad. Sci. U.S.A. 123 (4) e2531111123
+**Paper 2:** [An information-theoretic argument for the restriction of the current biological alphabets to 4 nucleotides and 20 amino acids](https://www.nature.com/articles/s41598-026-46009-8)
+**Citation 2:** Galpern, E.A., Ferreiro, D.U. & Sánchez, I.E. An information-theoretic argument for the restriction of the current biological alphabets to 4 nucleotides and 20 amino acids. Sci Rep 16, 10751 (2026).
+
+**Material:**
+- [Slides](02-10-26_Ozdeniz_DarkEnergy_slides.pdf)
+- [Paper 1](02-10-26_Ozdeniz_DarkEnergy_paper.pdf)
+- [Paper 2](02-10-26_Ozdeniz_Why20Alphabet_paper.pdf)
+
+**Abstract 1:**
+
+We show how to localize and quantify the functional evolutionary constraints on natural proteins. Protein folding has been one of the strongest constraints in sequence evolution. The method we propose compares the perturbations caused by local sequence variants to the energetics of the protein folding process and to the corresponding change to the apparent selection landscape of sequences over the evolutionary time scale. The difference between the physical folding free energies and the evolutionary free energies can be called a “dark energy.” We analyze various protein sets and thereby show that dark energy is largely localized at functional sites, which are also often energetically frustrated from the point of view of folding. Overall, we find that about 25% of the positions of the folded globular proteins display some significant dark energy. When a function relies on a free energy that can be thermodynamically quantified, such as the binding energy to a partner, the relationship of this physical free energy with dark energy can be used to define a functional selection temperature, just as there is a selection temperature for folding. We show that selection for folding and binding functions bear similar weights in specific protein–protein interactions.
+
+**Abstract 2:**
+
+Life as we know it is based on foldable biopolymers encoded with just 4 nucleotides or 20 amino acids. Evolution of these biopolymers requires effective and fast search of both the conformational space for folding and the sequence space for evolution. Energy landscape theory links the free energy of the possible polymer sequences and conformations with its ability to fold, while molecular information theory provides connections between conformational entropy and sequence entropy. Combining these two theories provides constraints to the alphabet size of an evolving biopolymer, given its physico-chemical properties. Empirical estimations of the size of the effective sequence and conformational spaces of foldable proteins and RNA show that the observed alphabet sizes agree with the theoretical predictions and are just large enough to allow for biopolymer evolution. In this scenario, one effective digital alphabet letter in the sequence landscape maps to one effective analog monomer configuration in the conformational landscape. We also use the current views on genetic code evolution to explore scenarios for biopolymers in the early stages of life. We find that primitive genetic systems coding for smaller amino acid alphabets may have led to a prominent presence of intrinsically disordered proteins.
 
 ## 25 September 2026
 
