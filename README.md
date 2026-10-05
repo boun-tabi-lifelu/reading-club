@@ -4,14 +4,14 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Özdeniz Dolu
-**Date:** 2 October 2026, 11:00 UTC+3 (Istanbul)
+**Presenter:** Burak Suyunu
+**Date:** 9 October 2026, 11:00 UTC+3 (Istanbul)
 
 ## Upcoming Meetings
 
 | Date | Presenter |
 | --- | --- |
-| 9 October 2026 | Buse Giledereli |
-| 16 October 2026 | Burak Suyunu |
+| 9 October 2026 | Burak Suyunu |
+| 16 October 2026 | Buse Giledereli |
 | 23 October 2026 | Amirreza Sattarzadeh |
 | 30 October 2026 | Ahmet Yigit Dogan |

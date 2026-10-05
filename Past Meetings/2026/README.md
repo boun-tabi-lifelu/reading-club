@@ -53,6 +53,9 @@ Recent advances in AI have enabled the accurate prediction of a single stable pr
 
 **Citation:** Hallee, L. P., Peleg, T., Rafailidis, N., & Gleghorn, J. P. (2026). Protein language models are accidental taxonomists. BMC Bioinformatics, 27, 188.
 
+**Material:**
+- [Slides](18-09-26_Burak_Accidental-Taxonomists.pdf)
+
 **Abstract:**
 
 Protein-protein interactions (PPIs) are fundamental to nearly all biological processes, yet their experimental characterization remains costly and time-consuming. While computational methods, particularly those using protein language models (pLMs), offer higher-throughput solutions, they often report unexpectedly high performance on multi-species datasets. Here, we introduce the accidental taxonomist hypothesis, proposing that neural networks can exploit the phylogenetic distances across labels in protein datasets rather than genuine interaction features. We show that in PPI datasets with random negative sampling, protein pairs for real PPIs are almost exclusively from the same species, while negatives almost always originate from different species. We then demonstrate that pLM embeddings can be used to accurately distinguish whether two proteins share a taxonomic origin, allowing models to "cheat" by learning phylogeny instead of genuine PPI features. By employing a strategic sampling strategy that restricts negative examples to protein pairs from the same species, we reveal a marked drop in model performance, confirming our hypothesis. Compellingly, these strategically trained models still outperform single-species models, suggesting that multi-species data can improve performance if carefully curated. These findings suggest that accidental taxonomist behavior is a particularly influential confounder for PPI, and it is also broadly applicable to any supervised-learning protein dataset.
