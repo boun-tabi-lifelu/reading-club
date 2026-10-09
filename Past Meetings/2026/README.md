@@ -122,13 +122,16 @@ Many proteins useful in modern medicine or bioengineering are challenging to mak
 
 ## 31 July 2026
 
-**Presenter:** Ahmet Yigit
+**Presenter:** Ahmet Yiğit Doğan
 
 **Date:** 31 July 2026, 11:00 UTC+3 (Istanbul)
 
 **Paper:** [From Static Structures to Ensembles: Studying and Harnessing Protein Structure Tokenization](https://arxiv.org/abs/2511.10056) (NeurIPS 2025)
 
 **Citation:** Liu, Z., Feng, B., Cao, H., & Li, Y. (2025). From Static Structures to Ensembles: Studying and Harnessing Protein Structure Tokenization. Advances in Neural Information Processing Systems (NeurIPS 2025).
+
+**Material:**
+- [Slides](31-07-26_Ahmet_Slides_Protein_Structure_Tokenization.pdf)
 
 **Abstract:**
 
@@ -312,3 +315,19 @@ models, enabling more generalizable predictions of protein behavior and mutation
 
 Protein structure is central to biological function, and enabling multimodal protein models requires joint reasoning over sequence, structure, and function. A key barrier is the lack of principled protein structure tokenizers (PSTs): existing approaches fix token size or rely on continuous vector codebooks, limiting interpretability, multi-scale control, and transfer across architectures. We introduce GEOBPE, a geometry-grounded PST that transforms continuous, noisy, multiscale backbone conformations into discrete “sentences” of geometry while enforcing global constraints. Analogous to byte-pair encoding, GEOBPE generates a hierarchical vocabulary of geometric primitives by iteratively (i) clustering Geo-Pair occurrences with k-medoids to yield a resolution-controllable vocabulary; (ii) quantizing each Geo-Pair to its closest medoid prototype; and (iii) reducing drift through differentiable inverse kinematics that optimizes boundary glue angles under an SE(3) end-frame loss. GEOBPE offers compression (>10× reduction in bits-per-residue at similar distortion rate), data efficiency (>10× less training data), and generalization (maintains test/train distortion ratio of 1.0 − 1.1). It is architecture-agnostic: (a) its hierarchical vocabulary provides a strong inductive bias for coarsening residue-level embeddings from large PLMs into motif- and protein-level representations, consistently outperforming leading PSTs across 12 tasks and 24 test splits; (b) paired with a transformer, GEOBPE supports unconditional backbone generation via language modeling; and (c) tokens align with CATH functional families and support expert-interpretable case studies, offering functional meaning absent in prior PSTs. Code is available at https://github.com/shiningsunnyday/PT-BPE/.
 
+## 15 January 2026
+
+**Presenter:** Ahmet Yiğit Doğan
+
+**Date:** 15 January 2026, 14:00 UTC+3 (Istanbul)
+
+**Paper:** [GPSFun: geometry-aware protein sequence function predictions with language models](https://academic.oup.com/nar/article/52/W1/W248/7670905)
+
+**Citation:** Yuan, Q., Tian, C., Song, Y., Ou, P., Zhu, M., Zhao, H., & Yang, Y. (2024). GPSFun: geometry-aware protein sequence function predictions with language models. Nucleic Acids Research, 52(W1), W248–W255.
+
+**Material:**
+- [Recording](https://youtu.be/8kJrH2XaXJA)
+
+**Abstract:**
+
+Knowledge of protein function is essential for elucidating disease mechanisms and discovering new drug targets. However, there is a widening gap between the exponential growth of protein sequences and their limited function annotations. In our prior studies, we have developed a series of methods including GraphPPIS, GraphSite, LMetalSite and SPROF-GO for protein function annotations at residue or protein level. To further enhance their applicability and performance, we now present GPSFun, a versatile web server for Geometry-aware Protein Sequence Function annotations, which equips our previous tools with language models and geometric deep learning. Specifically, GPSFun employs large language models to efficiently predict 3D conformations of the input protein sequences and extract informative sequence embeddings. Subsequently, geometric graph neural networks are utilized to capture the sequence and structure patterns in the protein graphs, facilitating various downstream predictions including protein-ligand binding sites, gene ontologies, subcellular locations and protein solubility. Notably, GPSFun achieves superior performance to state-of-the-art methods across diverse tasks without requiring multiple sequence alignments or experimental protein structures. GPSFun is freely available to all users at https://bio-web1.nscc-gz.cn/app/GPSFun with user-friendly interfaces and rich visualizations.
