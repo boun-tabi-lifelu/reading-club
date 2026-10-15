@@ -6,16 +6,16 @@
 
 **Date:** 9 October 2026, 11:00 UTC+3 (Istanbul)
 
-**Paper:** [Protein language models are accidental taxonomists](https://link.springer.com/article/10.1186/s12859-026-06491-3)
+**Paper:** [Dynamic chunking for end-to-end hierarchical sequence modeling](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f1aa53cac69ef6980ca4a911ffcf278b-Abstract-Conference.html)
 
-**Citation:** Hallee, Logan, Tamar Peleg, Nikolaos Rafailidis, and Jason P. Gleghorn. "Protein language models are accidental taxonomists." BMC bioinformatics 27, no. 1 (2026): 188.
+**Citation:** Hwang, Sukjun, Brandon Wang, and Albert Gu. "Dynamic chunking for end-to-end hierarchical sequence modeling." International Conference on Learning Representations. Vol. 2026. 2026.
 
 **Material:**
-- [Slides](18-09-26_Burak_Accidental-Taxonomists.pdf)
+- [Slides](09-10-26_Burak_H-Net.pdf)
 
 **Abstract:**
 
-Protein-protein interactions (PPIs) are fundamental to nearly all biological processes, yet their experimental characterization remains costly and time-consuming. While computational methods, particularly those using protein language models (pLMs), offer higher-throughput solutions, they often report unexpectedly high performance on multi-species datasets. Here, we introduce the accidental taxonomist hypothesis, proposing that neural networks can exploit the phylogenetic distances across labels in protein datasets rather than genuine interaction features. We show that in standard multi-species PPI datasets, positive pairs typically share a taxonomic origin, while randomly sampled negatives do not. We then demonstrate that pLM embeddings can be used to accurately distinguish whether two proteins share a taxonomic origin, allowing models to “cheat” by learning phylogeny instead of genuine PPI features. By employing a strategic sampling strategy that restricts negative examples to protein pairs from the same species, we reveal a marked drop in model performance, confirming our hypothesis. Compellingly, these strategically trained models still outperform single-species models, suggesting that multi-species data can improve performance if carefully curated. These findings suggest that accidental taxonomist behavior is a particularly influential confounder for PPI, and it is also broadly applicable to any supervised-learning protein dataset.
+Major progress on language models (LMs) in recent years has largely resulted from moving away from specialized models designed for specific tasks, to general models based on powerful architectures (e.g. the Transformer) that learn everything from raw data. Despite this trend, pre-processing steps such as tokenization remain a barrier to true end-to-end foundation models. We introduce a collection of new techniques that enable a dynamic chunking mechanism which automatically learns content- and context- dependent segmentation strategies learned jointly with the rest of the model. Incorporating this into an explicit hierarchical network (H-Net) allows replacing the (implicitly hierarchical) tokenization--LM--detokenization pipeline with a single model learned fully end-to-end. When compute- and data- matched, an H-Net with one stage of hierarchy operating at the byte level outperforms a strong Transformer language model operating over BPE tokens. Iterating the hierarchy to multiple stages further increases its performance by modeling multiple levels of abstraction, demonstrating significantly better scaling with data and matching the token-based Transformer of twice its size. H-Nets pretrained on English show significantly increased character-level robustness, and qualitatively learn meaningful data-dependent chunking strategies without any heuristics or explicit supervision. Finally, the H-Net's improvement over tokenized pipelines is further increased in languages and modalities with weaker tokenization heuristics, such as Chinese and code, or DNA sequences (nearly 4x improvement in data efficiency over baselines), showing the potential of true end-to-end models that learn and scale better from unprocessed data.
 
 ## 02 October 2026
 
