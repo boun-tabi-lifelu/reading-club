@@ -1,4 +1,22 @@
 # Past Meetings — 2026
+
+## 09 October 2026
+
+**Presenter:** Burak Suyunu
+
+**Date:** 9 October 2026, 11:00 UTC+3 (Istanbul)
+
+**Paper:** [Protein language models are accidental taxonomists](https://link.springer.com/article/10.1186/s12859-026-06491-3)
+
+**Citation:** Hallee, Logan, Tamar Peleg, Nikolaos Rafailidis, and Jason P. Gleghorn. "Protein language models are accidental taxonomists." BMC bioinformatics 27, no. 1 (2026): 188.
+
+**Material:**
+- [Slides](18-09-26_Burak_Accidental-Taxonomists.pdf)
+
+**Abstract:**
+
+Protein-protein interactions (PPIs) are fundamental to nearly all biological processes, yet their experimental characterization remains costly and time-consuming. While computational methods, particularly those using protein language models (pLMs), offer higher-throughput solutions, they often report unexpectedly high performance on multi-species datasets. Here, we introduce the accidental taxonomist hypothesis, proposing that neural networks can exploit the phylogenetic distances across labels in protein datasets rather than genuine interaction features. We show that in standard multi-species PPI datasets, positive pairs typically share a taxonomic origin, while randomly sampled negatives do not. We then demonstrate that pLM embeddings can be used to accurately distinguish whether two proteins share a taxonomic origin, allowing models to “cheat” by learning phylogeny instead of genuine PPI features. By employing a strategic sampling strategy that restricts negative examples to protein pairs from the same species, we reveal a marked drop in model performance, confirming our hypothesis. Compellingly, these strategically trained models still outperform single-species models, suggesting that multi-species data can improve performance if carefully curated. These findings suggest that accidental taxonomist behavior is a particularly influential confounder for PPI, and it is also broadly applicable to any supervised-learning protein dataset.
+
 ## 02 October 2026
 
 **Presenter:** Özdeniz Dolu
