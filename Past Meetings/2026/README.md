@@ -1,5 +1,19 @@
 # Past Meetings — 2026
 
+## 20 November 2026
+
+**Presenter:** Gökçe Uludoğan
+
+**Date:** 20 November 2026, 11:00 UTC+3 (Istanbul)
+
+**Paper:** [Learning residue level protein dynamics with multiscale Gaussians](https://arxiv.org/abs/2509.01038)
+
+**Citation:** Bafna, M., Jing, B., & Berger, B. (2026). Learning residue level protein dynamics with multiscale Gaussians. International Conference on Learning Representations (ICLR 2026); arXiv preprint arXiv:2509.01038.
+
+**Abstract:**
+
+Many methods have been developed to predict static protein structures, however understanding the dynamics of protein structure is essential for elucidating biological function. While molecular dynamics (MD) simulations remain the in silico gold standard, its high computational cost limits scalability. We present DynaProt, a lightweight, SE(3)-invariant framework that predicts rich descriptors of protein dynamics directly from static structures. By casting the problem through the lens of multivariate Gaussians, DynaProt estimates dynamics at two complementary scales: (1) per-residue marginal anisotropy as 3 × 3 covariance matrices capturing local flexibility, and (2) joint scalar covariances encoding pairwise dynamic coupling across residues. From these dynamics outputs, DynaProt achieves high accuracy in predicting residue-level flexibility (RMSF) and, remarkably, enables reasonable reconstruction of the full covariance matrix for fast ensemble generation. Notably, it does so using orders of magnitude fewer parameters than prior methods. Our results highlight the potential of direct protein dynamics prediction as a scalable alternative to existing methods.
+
 ## 09 October 2026
 
 **Presenter:** Burak Suyunu

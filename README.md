@@ -4,14 +4,16 @@ This repository contains announcements and materials for the LifeLU reading grou
 
 ## Next Meeting
 
-**Presenter:** Buse Giledereli
+**Presenter:** Özdeniz Dolu
 
-**Date:** 16 October 2026, 11:00 UTC+3 (Istanbul)
+**Date:** 27 November 2026, 11:00 UTC+3 (Istanbul)
 
 ## Upcoming Meetings
 
 | Date | Presenter |
 | --- | --- |
-| 16 October 2026 | Buse Giledereli |
-| 23 October 2026 | Amirreza Sattarzadeh |
-| 30 October 2026 | Ahmet Yigit Dogan |
+| 4 December 2026 | Burak Suyunu |
+| 11 December 2026 | Buse Giledereli |
+| 18 December 2026 | Amirreza Sattarzadeh |
+| 25 December 2026 | Ahmet Yigit Dogan |
+| 8 January 2027 | Oytun |
