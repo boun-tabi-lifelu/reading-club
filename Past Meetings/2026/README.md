@@ -14,6 +14,23 @@
 
 Many methods have been developed to predict static protein structures, however understanding the dynamics of protein structure is essential for elucidating biological function. While molecular dynamics (MD) simulations remain the in silico gold standard, its high computational cost limits scalability. We present DynaProt, a lightweight, SE(3)-invariant framework that predicts rich descriptors of protein dynamics directly from static structures. By casting the problem through the lens of multivariate Gaussians, DynaProt estimates dynamics at two complementary scales: (1) per-residue marginal anisotropy as 3 × 3 covariance matrices capturing local flexibility, and (2) joint scalar covariances encoding pairwise dynamic coupling across residues. From these dynamics outputs, DynaProt achieves high accuracy in predicting residue-level flexibility (RMSF) and, remarkably, enables reasonable reconstruction of the full covariance matrix for fast ensemble generation. Notably, it does so using orders of magnitude fewer parameters than prior methods. Our results highlight the potential of direct protein dynamics prediction as a scalable alternative to existing methods.
 
+## 06 November 2026
+
+**Presenter:** Ahmet Yiğit Doğan
+
+**Date:** 6 November 2026, 11:00 UTC+3 (Istanbul)
+
+**Paper:** [A joint NCBI and EMBL-EBI transcript set for clinical genomics and research](https://www.nature.com/articles/s41586-022-04558-8)
+
+**Citation:** Morales, J., Pujar, S., Loveland, J. E., et al. (2022). A joint NCBI and EMBL-EBI transcript set for clinical genomics and research. Nature, 604, 310–315. https://doi.org/10.1038/s41586-022-04558-8
+
+**Material:**
+- [Slides](06-11-26_Ahmet_A_Joint_NCBI_and_EMBL_EBI_Transcript_Set_for_Clinical_Genomics_and_Research.pdf)
+
+**Abstract:**
+
+Comprehensive genome annotation is essential to understand the impact of clinically relevant variants. However, the absence of a standard for clinical reporting and browser display complicates the process of consistent interpretation and reporting. To address these challenges, Ensembl/GENCODE and RefSeq launched a joint initiative, the Matched Annotation from NCBI and EMBL-EBI (MANE) collaboration, to converge on human gene and transcript annotation and to jointly define a high-value set of transcripts and corresponding proteins. Here, we describe the MANE transcript sets for use as universal standards for variant reporting and browser display. The MANE Select set identifies a representative transcript for each human protein-coding gene, whereas the MANE Plus Clinical set provides additional transcripts at loci where the Select transcripts alone are not sufficient to report all currently known clinical variants. Each MANE transcript represents an exact match between the exonic sequences of an Ensembl/GENCODE transcript and its counterpart in RefSeq such that the identifiers can be used synonymously. We have now released MANE Select transcripts for 97% of human protein-coding genes, including all American College of Medical Genetics and Genomics Secondary Findings list v3.0 genes. MANE transcripts are accessible from major genome browsers and key resources. Widespread adoption of these transcript sets will increase the consistency of reporting, facilitate the exchange of data regardless of the annotation source and help to streamline clinical interpretation.
+
 ## 09 October 2026
 
 **Presenter:** Burak Suyunu
