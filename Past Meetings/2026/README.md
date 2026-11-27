@@ -1,5 +1,20 @@
 # Past Meetings — 2026
 
+## 27 November 2026
+
+**Presenter:** Gökçe Uludoğan
+
+**Date:** 27 November 2026, 11:00 UTC+3 (Istanbul)
+
+**Paper:** [Quantifying uncertainty in protein representations across models and tasks](https://www.nature.com/articles/s41592-026-03028-7)
+
+**Citation:** Prabakaran, R., and Yana Bromberg. "Quantifying uncertainty in protein representations across models and tasks." Nature Methods (2026): 1-9.
+
+**Abstract:**
+
+Biomolecular embeddings serve as efficient representations of sequence and structure, enabling tasks such as similarity searches, structure and function prediction and estimation of biophysical properties. However, relying on embeddings without assessing their ability to accurately represent biomolecules is a critical flaw—akin to using a scalpel in surgery without verifying its sharpness. Here we propose a means to evaluate the capacity of protein language models to encode biologically meaningful information. For each protein, representation uncertainty is scored as the fraction of non-biological ‘synthetic’ sequences among its nearest neighbors in latent space. Our analysis reveals that low-quality embeddings often fail to capture meaningful biology, displaying vector properties indistinguishable from those of randomly generated sequences. Our model-agnostic scoring framework is, to our knowledge, the first to quantify protein sequence embedding reliability. It enables embedding screening prior to downstream applications and inferences, significantly improving their reliability. We propose that embedding evaluation should be undertaken for other uses of language models in science as well.
+
+
 ## 20 November 2026
 
 **Presenter:** Gökçe Uludoğan
